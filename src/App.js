@@ -1,4 +1,4 @@
-import Home from "./Pages/Home";
+import Landing from "./Pages/Landing";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
 
@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Landing />} />
       </Routes>
     </Router>
     </>
